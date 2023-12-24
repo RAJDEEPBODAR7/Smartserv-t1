@@ -1,0 +1,33 @@
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: auto;
+  margin-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border: 2px solid #dddddd;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:hover {
+  background-color: #e6f7ff; /* Change this color to the desired hover effect */
+}
